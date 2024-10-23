@@ -457,3 +457,54 @@ html{
     font-size: 13px;
 } 
 }
+@media only screen and (max-width: 757px) {
+   .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Survices img{
+    width: 260px;
+    height: 150px;
+    background: #eee;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.contect form{
+    display: flex;
+    flex-direction: column;
+    background: #ddd;
+    padding: 20px;
+    
+    width: 200px;
+    border-radius: 10px;
+}
+.contect input{
+    height: 30px;
+    padding-left: 5px;
+    margin: 5px;
+}
+.contect textarea{
+    padding-left: 5px;
+    margin: 5px;
+}
+.contect button{
+     margin: 5px;
+}
+.btn button{
+    background: purple;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    font-size: 12px;
+}
+.btn button:hover{
+    background: skyblue;
+    border: 1px solid skyblue;
+}
+}
+
