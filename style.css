@@ -755,4 +755,253 @@ html{
 }
 }
 
+@media only screen and (max-width: 557px) {
+   .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.header img{
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    transition: 0.2s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header img:hover{
+    border: 3px solid skyblue;
+}
+.header ul{
+    display: flex;
+    margin-bottom: 20px;
+}
+.header li{
+    list-style: none;
+    margin: 0 10px;
+}
+.header a{
+    text-decoration: none;
+    font-size:13px;
+    border: 3px solid #eee;
+    border-radius: 10px;
+    padding: 5px;
+}
+.header a:hover{
+    border: 3px solid skyblue;
+}
+.hero{
+     background: url('https://img.freepik.com/free-vector/black-background-with-blue-purple-wave-design_483537-4450.jpg?w=996&t=st=1729272323~exp=1729272923~hmac=970377a586e6e1c504b1519c82b819dcd1f9d28668986d1be6f69953b7908395');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    
+    color: white;
+}
+.hero-1{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-1 h1{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+
+}
+.hero-1 p{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.hero-2 a{
+    font-size: 14px;
+    background: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+.hero-2 a:hover{
+    border: 2px solid #fff;
+    background: skyblue;
+}
+
+
+.pro{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.pro p{
+    font-size: 12px;
+}
+.pro h2{
+    color: #635dda;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+.Survices{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    flex-wrap: wrap;
+  
+    margin-bottom: 10px;
+}
+.Survices img{
+    width: 250px;
+    height: 150px;
+    background: #eee;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.Survices img:hover{
+    background: #635dda;
+    border: 2px solid #635dda;
+}
+.Survices h3{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.Portfolio img{
+    width: 260px;
+}
+.Portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.Portfolio li{
+    list-style: none;
+    margin: 5px 0;
+    font-size: 12px;
+}
+.Portfolio h3{
+    font-size: 14px;
+}
+.container{
+    background: #eee;
+    padding: 10px 0;
+}
+.about img{
+    width: 260px;
+    display: block;
+    margin: auto;
+}
+.about h2{
+    text-align:center;
+    font-size: 15px;
+}
+.about p{
+    text-align: center;
+    font-size: 10px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about div{
+    flex: 2;
+}
+.about button{
+    background: purple;
+    padding: 6px 7px;
+    border-radius: 6px;
+    color: white;
+    margin-left: 115px;
+    cursor: pointer;
+    font-size: 10px;
+    border: 1px solid purple;
+}
+.about button:hover{
+    background: skyblue;
+    border: 1px solid skyblue;
+}
+
+.about p{
+    margin-bottom: 10px;
+}
+.contect{
+    display:flex;
+    flex-direction: column;
+    
+}
+.right p{
+    text-align: center;
+    font-size: 12px;
+}
+.right h3{
+    text-align: center;
+    font-size: 14px;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contect form{
+    display: flex;
+    flex-direction: column;
+    background: #ddd;
+    padding: 20px;
+    
+    width: 250px;
+    border-radius: 10px;
+}
+.contect input{
+    height: 30px;
+    padding-left: 5px;
+    margin: 5px;
+}
+.contect textarea{
+    padding-left: 5px;
+    margin: 5px;
+}
+.contect button{
+     margin: 5px;
+}
+.btn button{
+    background: purple;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    font-size: 12px;
+}
+.btn button:hover{
+    background: skyblue;
+    border: 1px solid skyblue;
+}
+.surface{
+    background: #292929;
+    padding: 20px 0;
+    color: white;
+    margin-top: 10px;
+}
+.surface p{
+    text-align: center;
+    font-size: 13px;
+}
+}
 
